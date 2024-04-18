@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <a href="#" class="header__logo">Journey</a>
+      <div class="header__icons">
+        <a href="#" class="icon-container">
+          <img src="./img/calculator.png" alt="calculator" class="header__icon">
+          <img src="./img/calculator-hover.png" alt="" class="header__icon-hover">
+        </a>
+        <a href="#" class="icon-container">
+          <img src="./img/ic_forum.png" alt="forum" class="header__icon">
+          <img src="./img/ic_forum-hover.png" alt="" class="header__icon-hover">
+        </a>
+        <a href="#" class="icon-container">
+          <img src="./img/ic_journey.png" alt="nav" class="header__icon">
+          <img src="./img/ic_journey-hover.png" alt="" class="header__icon-hover">
+        </a>
+        <img src="./img/line.png" alt="line" class="header__icon">
+      </div>
+      <div class="header__texts">
+        <p class="header__text">Welcome,</p>
+        <a href="#" class="text-green">
+          <p class="header__text">Log In</p>
+        </a>
+        <p class="header__text">or</p>
+        <a href="#" class="text-green">
+          <p class="header__text">Sign Up</p>
+        </a>
+      </div>
+    </header>
+
+    <div class="signup-form-container">
+      <form class="signup-form">
+        <div class="signup-header">
+          <p class="signup-title">Sign Up</p>
+          <a href="#">
+            <p class="signup-login">Log In</p>
+          </a>
+        </div>
+        <div class="social-buttons">
+          <button class="facebook-button">
+            <span class="facebook-logo">f</span>
+            <img class="facebook-line" src="./img/button-line.png" alt="line">
+            <span class="facebook-name">Facebook</span>
+            </button>
+          <button class="google-button">
+            <span class="google-logo">G<span class="google-plus">+</span></span>
+            <img src="./img/button-line.png" alt="line" class="google-line">
+            <span class="google-name">Google</span>
+          </button>
+        </div>
+        <p class="or-separator">or</p>
+        <div class="input-wrapper">
+          <input class="signup-form-input" type="text" placeholder="Jason" name="first-name" required>
+          <input class="signup-form-input" type="text" placeholder="Last Name" name="last-name" required>
+          <input class="signup-form-input" type="email" placeholder="Email" name="email" required>
+          <input class="signup-form-input" type="password" placeholder="Choose Password" name="password" required>
+          <input class="signup-form-input" type="password" placeholder="Confirm Password" name="confirm-password" required>
+        </div>
+          <div class="checkbox-wrapper">
+            <input type="checkbox" class="custom-checkbox" id="check">
+            <label for="check">Agree our<a href="#" class="checkbox-terms">Terms & Conditions</a></label>
+          </div>
+        <div class="button-wrapper">
+          <button type="submit" class="create-account-button">Create Account</button>
+        </div>
+  </div>
+</body>
+</html>
